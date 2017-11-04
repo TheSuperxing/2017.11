@@ -1,0 +1,223 @@
+
+$bfColor:#ffffff;
+$activeColor:#02a672;
+#team{
+
+  margin:0 auto;
+  font-family:'Microsoft Yahei';
+  overflow: hidden;
+  .t-title{
+      height:34px;
+      border-bottom:1px solid #ebebeb;
+      text-align: left;
+      span{
+        font-family:'Microsoft Yahei';
+        color:$activeColor;
+        padding-bottom:14px;
+        font-size:18px;
+        line-height:18px;
+        border-bottom:2px solid $activeColor;
+        display:inline-block;
+      }
+   }
+  .teamIndex{
+    width:940px;
+    padding:40px;
+    background-color:$bfColor;
+    float:left;
+    border-radius:5px;
+    .teamMessage{
+      text-align: left;
+      padding-bottom:40px;
+      overflow:hidden;
+      border-bottom:1px solid #ebebeb;
+      .m-logo{
+        width:113px;
+        height:113px;
+        background: #F7F7F7;
+        float:left;
+        border-radius: 50%;
+        overflow: hidden;
+        position: relative;
+        img{
+            width: 50%;
+            height: 50%;
+            position:absolute;top:50%;left:50%;
+             transform:translate(-50%,-50%);
+             -webkit-transform:translate(-50%,-50%);
+            -moz-transform:translate(-50%,-50%);
+            -ms-transform:translate(-50%,-50%);
+            -o-transform:translate(-50%,-50%);
+        }
+
+      }
+      .m-warp{
+        float: left;
+        margin-left:40px;
+        height: 113px;
+        line-height:113px;
+        .teamName{
+          font-size:24px;
+          color:$activeColor;
+          font-family:'Microsoft Yahei';
+
+        }
+        .teamAddress{
+          font-size:18px;
+          line-height:18px;
+          color:#6f6f6f;
+          font-family:'Microsoft Yahei';
+          margin-top:14px;
+
+        }
+      }
+
+    }
+
+
+
+
+
+
+  }
+  .teamAccountIndex{
+    width:940px; height: 600px;
+    padding:40px;
+    background-color:$bfColor;
+    float:left;
+    border-radius:5px;
+    position: relative;
+    .cA-BasicInfo{
+        padding-top: 32px;
+        padding-bottom: 30px;
+        border-bottom: 1px solid #ebebeb;
+        overflow: hidden;
+        li{
+            margin-bottom: 30px;
+            height: 20px;
+            line-height: 20px;
+            text-align: left;
+//          overflow: hidden;
+            .info-left{
+                float: left;
+                margin-right: 50px;
+                img{
+                    width: 16px;
+                    margin-left:40px;
+                    margin-right: 17px;
+                }
+
+            }
+            .registerTime,.teamMail,.teamPassword{
+                float: left;
+            }
+            &:last-child{
+                position: relative;
+                margin-bottom: 0;
+                .editPwd{
+                    cursor: pointer;
+                    position: absolute;
+                    right: 0;
+                    display: inline-block;
+                    padding-left: 27px;
+                    color: $activeColor;
+                    height: 15px;
+                    line-height: 15px;
+                    overflow: hidden;
+                    background: url(../img/team/icon_green-edit.png) no-repeat left center;
+                }
+            }
+
+        }
+
+    }
+    .cA-contactInfo{
+        padding-top: 32px;
+        padding-bottom: 30px;
+        overflow: hidden;
+        .editCtr{
+            cursor: pointer;
+            float: left;
+            width: 100%;
+            height: 15px;
+            line-height: 15px;
+            margin-top: 20px;
+            padding-left: 27px;
+            color: $activeColor;
+            background: url(../img/team/icon_green-edit.png) no-repeat left center;
+        }
+        .contactor{
+            width: 260px;
+            height: 104px;
+//          padding: 30px;
+            background: #f7f7f7;
+            border-radius: 5px;
+            float: left;
+            margin-right: 40px;
+            dl{
+                &:after {  content: "."; display: block; height: 0; clear: both; visibility: hidden;  }
+                dt{
+                    margin-top: 30px;
+                    margin-left: 30px;
+                    float: left;
+                    &:after {  content: "."; display: block; height: 0; clear: both; visibility: hidden;  }
+                    img{
+                        width: 37px;
+                        height: 42px;
+                        float: left;
+                        margin-right: 30px;
+                    }
+                }
+                dd{
+                    float: left;
+                     margin-top: 30px;
+                    .contactN{
+                        font-size: 18px;
+                        height: 18px;
+                        line-height: 18px;
+                        margin-bottom: 12px;
+
+                    }
+                    .contactP{
+                        font-size: 14px;
+                        height: 14px;
+                        line-height: 14px;
+                    }
+                }
+            }
+        }
+    }
+  }
+  .teamConfirm{
+    width:940px;
+
+    background-color:$bfColor;
+
+    float:left;
+    border-radius:5px;
+  }
+  .teamInfo{
+    width:940px;
+//  padding:40px;
+    background-color:$bfColor;
+
+    float:left;
+    border-radius:5px;
+  }
+  .teamOrganiz{
+    width:940px;
+//  padding:40px;
+    background-color:$bfColor;
+
+    float:left;
+    border-radius:5px;
+  }
+  .teamProject{
+    width:940px;
+    background-color:$bfColor;
+
+    float:left;
+    border-radius:5px;
+  }
+
+}
